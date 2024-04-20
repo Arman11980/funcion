@@ -1,7 +1,9 @@
-def print_params(name):
-    print('hello', name)
-
-print_params('i believe in miracles')
-print_params(666)
+def print_params():
+    for f in 1, 2:
+        print('I believe in miracles')
+        print(666)
+        
+print_params()
+print_params()
 
 
